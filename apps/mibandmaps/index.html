@@ -5,29 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Create a stylish landing page for your business startup and get leads for the offered services with this HTML landing page template.">
-    <meta name="author" content="Inovatik">
+    <meta name="description" content="Receive Google Maps directions to your Mi Band 5/4/3, Amazfit Bip or Amazfit Cor">
+    <meta name="author" content="Francesco Re">
 
     <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
-	<meta property="og:site_name" content="" /> <!-- website name -->
-	<meta property="og:site" content="" /> <!-- website link -->
-	<meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
-	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
-	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
-	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+	<meta property="og:site_name" content="Mi Band Maps" /> <!-- website name -->
+	<meta property="og:site" content="https://francescore.dev/apps/mibandmaps" /> <!-- website link -->
+	<meta property="og:title" content="Mi Band Maps app"/> <!-- title shown in the actual shared post -->
+	<meta property="og:description" content="Receive Google Maps directions to your Mi Band 5/4/3, Amazfit Bip or Amazfit Cor" /> <!-- description shown in the actual shared post -->
+	<meta property="og:image" content="https://francescore.dev/apps/mibandmaps/images/video-frame.jpg" /> <!-- image link, make sure it's jpg -->
+	<meta property="og:url" content="https://francescore.dev/apps/mibandmaps" /> <!-- where do you want your post to link to -->
 	<meta property="og:type" content="article" />
 
     <!-- Website Title -->
     <title>Mi Band Maps</title>
     
     <!-- Styles -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,600,700,700i&amp;subset=latin-ext" rel="stylesheet">
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css" integrity="sha512-nSomje7hTV0g6A5X/lEZq8koYb5XZtrWD7GU2+aIJD35CePx89oxSM+S7k3hqNSpHajFbtmrjavZFxSEfl6pQA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw==" crossorigin="anonymous" />
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/swiper.css" rel="stylesheet">
 	<link href="css/magnific-popup.css" rel="stylesheet">
-	<link href="css/styles.css" rel="stylesheet">
-	
+	<link href="css/styles.css" rel="stylesheet"> -->
+
+
 	<!-- Favicons  -->
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
@@ -40,9 +44,6 @@
     <link rel="apple-touch-icon" sizes="152x152" href="images/apple-touch-icon-152x152.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon-180x180.png" />
 
-    <!-- GFonts 
-    <link rel="preconnect" href="https://fonts.gstatic.com"> 
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> -->
 </head>
 <body data-spy="scroll" data-target=".fixed-top">
     
@@ -69,8 +70,8 @@
         
         <!-- Mobile Menu Toggle Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-awesome fas fa-bars"></span>
-            <span class="navbar-toggler-awesome fas fa-times"></span>
+            <span class="navbar-toggler-awesome menu"><img src="images/menu.svg" /></span>
+            <span class="navbar-toggler-awesome menu-close"><img src="images/close.svg" /></span>
         </button>
         <!-- end of mobile menu toggle button -->
 
@@ -99,21 +100,6 @@
                     <a class="nav-link page-scroll" href="#contact">Contact</a>
                 </li>
             </ul>
-            <!-- 
-            <span class="nav-item social-icons">
-                <span class="fa-stack">
-                    <a href="#your-link">
-                        <i class="fas fa-circle fa-stack-2x facebook"></i>
-                        <i class="fab fa-facebook-f fa-stack-1x"></i>
-                    </a>
-                </span>
-                <span class="fa-stack">
-                    <a href="#your-link">
-                        <i class="fas fa-circle fa-stack-2x twitter"></i>
-                        <i class="fab fa-twitter fa-stack-1x"></i>
-                    </a>
-                </span>
-            </span> -->
         </div>
     </nav> <!-- end of navbar -->
     <!-- end of navigation -->
@@ -128,7 +114,7 @@
                         <div class="text-container">
                             <h1><span class="orange">Mi Band Maps</span></h1>
                             <h4>Receive Google Maps directions to your Mi&nbsp;Band&nbsp;5/4/3, Amazfit&nbsp;Bip or Amazfit&nbsp;Cor</h4><br>
-                            <a href='https://play.google.com/store/apps/details?id=com.re.mibandmaps'><img id="google-play-button" alt='Get it on Google Play' src='images/google-play-badge.png'/></a>
+                            <a href='https://play.google.com/store/apps/details?id=com.re.mibandmaps'><img class="google-play-button" alt='Get it on Google Play' src='images/google-play-badge.png'/></a>
                         </div> <!-- end of text-container -->
                     </div> <!-- end of col -->
                     <div class="col-lg-6">
@@ -193,7 +179,7 @@
 
 
     <!-- Details 1 -->
-    <div class="basic-1">
+    <div class="details-1">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -215,19 +201,19 @@
                         </ul>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
-                <div class="col-lg-6">
+                <div class="col-lg-6 details-1-image-col">
                     <div class="image-container details-image-container">
                         <img class="img-fluid" src="images/compatibility.svg" alt="alternative">
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
-    </div> <!-- end of basic-1 -->
+    </div> <!-- end of details-1 -->
     <!-- end of details 1 -->
 
     
     <!-- Details 2 -->
-    <div class="basic-2">
+    <div class="details-2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -261,7 +247,7 @@
     <!-- end of details 2 -->
 
     <!-- Video -->
-    <div id="video" class="basic-3">
+    <div id="video" class="video">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -289,16 +275,16 @@
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
-    </div> <!-- end of basic-3 -->
+    </div> <!-- end of video -->
     <!-- end of video -->
 
 
-    <!-- Schreenshots -->
+    <!-- Screenshots -->
     <div id="screenshots" class="screenshots-slider">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2>Schreenshots</h2>
+                    <h2>Screenshots</h2>
 
                     <!-- Card Slider -->
                     <div class="slider-container">
@@ -351,7 +337,7 @@
             <div class="row form-first-row">
                 <div class="col-lg-12">
                     <h2>Contact form</h2>
-                    <p>Don't hesitate to contact us by compiling the below form or sending an email to <a class="orange" href="mailto:mibandmaps@gmail.com">our support email</a></p>
+                    <p>Don't hesitate to contact me by compiling the below form or sending an email to <a class="orange" href="mailto:mibandmaps@gmail.com">this address</a></p>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
             <div class="row">
@@ -397,9 +383,9 @@
     <div class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3 footer-google-play-button">
                     <div class="footer-col">
-                        <a href='https://play.google.com/store/apps/details?id=com.re.mibandmaps'><img id="google-play-button" alt='Get it on Google Play' src='images/google-play-badge.png'/></a>
+                        <a href='https://play.google.com/store/apps/details?id=com.re.mibandmaps'><img class="google-play-button" alt='Get it on Google Play' src='images/google-play-badge.png'/></a>
                     </div>
                 </div> <!-- end of col -->
                 <div class="col-md-9">
@@ -414,13 +400,15 @@
     <!-- end of footer -->    
     	
     <!-- Scripts -->
-    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
-    <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
-    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
-    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
-    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
-    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
-    <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.6.0/umd/popper.min.js" integrity="sha512-BmM0/BQlqh02wuK5Gz9yrbe7VyIVwOzD1o40yi1IsTjriX/NGF37NyXHfmFzIlMmoSIBXgqDiG1VNU6kB5dBbA==" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.5.3/swiper-bundle.min.js" integrity="sha512-f5raXjCuok1zLkRjJJm7AMVZ65Kgr8SK85CMOZJ5ytAoHLi/Z+c3T78tm1fYuAVaeo6qLUySmE1rqY8hjSy6mA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" integrity="sha512-0QbL0ph8Tc8g5bLhfVzSqxe9GERORsKhIn1IrpxDAgUsbBGz/V7iSav2zzW325XGd1OMLdL4UiqRJj702IeqnQ==" crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script> <!-- Custom scripts -->
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,600,700,700i&amp;subset=latin-ext" rel="stylesheet">
 </body>
 </html>
