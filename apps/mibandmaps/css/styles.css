@@ -739,6 +739,10 @@ input[type='checkbox'] {
 	background-color: #fff;
 }
 
+.header-wrapper{
+	min-height: 100vh;
+}
+
 .header .header-content {
 	padding-top: 8rem;
 	padding-bottom: 4rem;
