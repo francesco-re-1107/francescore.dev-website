@@ -31,7 +31,7 @@ body{
 
 #info-wrapper{
     padding: 40px;
-    width: 350px;
+    max-width: 350px;
     margin: 0;
     position: absolute;
     top: 50%;
@@ -47,9 +47,9 @@ body{
 }
 
 #console-wrapper {
-    width: 800px;
-    height: 485px;
-    padding: 85px 80px;
+    width: 960px;
+    height: 582px;
+    padding: 102px 96px;
     background-image: url('../images/console-light.png');
     background-size: contain;
     background-repeat: no-repeat;
@@ -107,6 +107,10 @@ body{
     font-size: 20px;
 }
 
+#socials{
+    margin-top: 20px;
+}
+
 #contacts {
     margin-top: 40px;
 }
@@ -147,9 +151,25 @@ body{
     }
 }
 
+@media screen and (max-width: 1600px) {
+    #console-wrapper {
+        width: 800px;
+        height: 485px;
+        padding: 85px 80px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    #console-wrapper {
+        width: 680px;
+        height: 412px;
+        padding: 72px 68px;
+    }
+}
+
 @media screen and (max-width: 1100px) {
     #info-wrapper{
-        width: 300px;
+        width: 90%;
     }
 
     #propic{
@@ -164,7 +184,29 @@ body{
     }
 }
   
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
+    #info-wrapper{
+        padding: 10px;
+        width: 250px;
+    }
+
+    .list li{
+        margin: 0;
+    }
+
+    #propic{
+        width: 200px;
+        height: 200px;
+    }
+
+    #console-wrapper {
+        width: 560px;
+        height: 340px;
+        padding: 60px 56px;
+    }
+}
+
+@media screen and (max-width: 850px) {
     #right-column{
         display: none;
     }
@@ -175,7 +217,7 @@ body{
 
     #info-wrapper{
         padding: 20px;
-        width: 350px;
+        width: 60%;
     }
 
     #propic{
@@ -184,14 +226,29 @@ body{
         padding: 0;
         margin: 0 auto;
     }
+
+    #socials{
+        margin-top: 30px;
+    }
     
     .list span{
-        font-size: 6vw;
         padding-left: 0;
+        font-size: 25px;
     }
 
     .list svg {
         height: 30px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #propic{
+        width: 250px;
+        height: 250px;
+    }
+    
+    #info-wrapper{
+        width: 75%;
     }
 }
 
@@ -203,5 +260,61 @@ body{
 
     #info-wrapper{
         width: 90%;
+    }
+}
+
+@media screen and (max-height: 500px) {
+    #right-column{
+        display: none;
+    }
+
+    #left-column{
+        width: 100%;
+    }
+
+    #info-wrapper{
+        max-width: none;
+        width: 90%;
+        padding: 5%;
+    }
+
+    #propic{
+        width: 200px;
+        height: 200px;
+    }
+
+    #propic, #socials, #contacts{
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-height: 500px) and (max-width: 736px){
+    #propic, #socials, #contacts{
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0;
+        margin-left: 10px;
+    }
+
+    #propic{
+        width: 130px;
+        height: 130px;
+    }
+
+    #info-wrapper{
+        width: 95%;
+        padding: 2.5%;
+    }
+
+    .list span{
+        padding-left: 0;
+        font-size: 22px;
+    }
+
+    .list svg{
+        height: 26px;
     }
 }
