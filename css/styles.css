@@ -78,9 +78,8 @@ body{
 
 .list{
     list-style-type: none;
-    padding-left: 0;
+    padding-left: 10px;
     margin: 0 auto;
-
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
      -khtml-user-select: none; /* Konqueror HTML */
@@ -117,7 +116,7 @@ body{
     line-height: 46px;
     padding-left: 10px;
     font-family: 'Varela Round', sans-serif;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 #socials{
@@ -130,7 +129,7 @@ body{
 
 @media (prefers-color-scheme: dark) {
     body{
-        background-color: #343434;
+        background-color: #242424;
     }
 
     #console {
@@ -230,7 +229,7 @@ body{
 
     #info-wrapper{
         padding: 20px;
-        width: 60%;
+        width: 70%;
     }
 
     #propic{
@@ -261,7 +260,7 @@ body{
     }
     
     #info-wrapper{
-        width: 75%;
+        width: 90%;
     }
 }
 
@@ -304,7 +303,7 @@ body{
     }
 }
 
-@media screen and (max-height: 500px) and (max-width: 736px){
+@media screen and (max-height: 500px) and (max-width: 730px){
     #propic, #socials, #contacts{
         display: inline-block;
         vertical-align: middle;
