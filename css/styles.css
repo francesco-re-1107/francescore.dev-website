@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Menlo;
+    src: url('../fonts/Menlo.ttf');
+}
+
 body{
     background-color: #FFF;
     max-width: 1920px;
@@ -42,8 +47,8 @@ body{
 
 #console {
     color: #000;
-    font-family: monospace;
-    font-size: 1.8rem;
+    font-family: 'Menlo', monospace;
+    font-size: 1.4rem;
 }
 
 #console-wrapper {
@@ -75,6 +80,14 @@ body{
     list-style-type: none;
     padding-left: 0;
     margin: 0 auto;
+
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
 }
 
 .list li{
