@@ -46,9 +46,13 @@ body{
 }
 
 #console {
-    color: #000;
+    color: black;
     font-family: 'Menlo', monospace;
     font-size: 1.4rem;
+}
+
+#console a{
+    color: black;
 }
 
 #console-wrapper {
@@ -133,7 +137,11 @@ body{
     }
 
     #console {
-        color: #fff;
+        color: white;
+    }
+
+    #console a{
+        color: white;
     }
 
     #console-wrapper {
