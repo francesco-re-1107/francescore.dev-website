@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Menlo;
+    src: url('../fonts/Menlo.ttf');
+}
+
 body{
     background-color: #FFF;
     max-width: 1920px;
