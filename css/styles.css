@@ -302,6 +302,7 @@ body{
         max-width: none;
         width: 90%;
         padding: 5%;
+        text-align: center;
     }
 
     #propic{
@@ -336,6 +337,7 @@ body{
     #info-wrapper{
         width: 95%;
         padding: 2.5%;
+        text-align: center;
     }
 
     .list span{
