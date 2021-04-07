@@ -4,7 +4,6 @@ Disallow:
 # Root
 User-agent: *
 Disallow: /404.html
-Disallow: /401.html
 Disallow: /images
 Disallow: /css
 Disallow: /js

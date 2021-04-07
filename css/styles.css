@@ -259,6 +259,12 @@ body{
     .list svg {
         height: 30px;
     }
+
+    .list {
+        text-align: center;
+        padding-left: 0;
+        margin-left: -15px;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -309,6 +315,9 @@ body{
         margin: 0;
         margin-left: 20px;
     }
+    .list {
+        text-align: left;
+    }
 }
 
 @media screen and (max-height: 500px) and (max-width: 730px){
@@ -336,5 +345,9 @@ body{
 
     .list svg{
         height: 26px;
+    }
+
+    .list {
+        text-align: left;
     }
 }
