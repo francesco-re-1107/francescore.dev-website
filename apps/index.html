@@ -12,33 +12,117 @@
         <link rel="apple-touch-icon" sizes="152x152" href="/apple/apple-touch-icon-152x152.png" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple/apple-touch-icon-180x180.png" />
         <link rel="preconnect" href="https://fonts.gstatic.com"> 
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
         <style>
-            img{
-                width: auto;
-                max-width: 80vh;
-                padding-top: 10vh;
-                padding-bottom: 10vh;
-            }
             body{
                 text-align: center;
                 margin: 0;
             }
-            a{
-                position: absolute;
-                bottom: 10px;
-                color: #bbb;
-                left: 50%;
-                text-align: center;
-                width: 200px;
-                margin-left: -100px;
-                font-size: 12px;
-                font-family: 'Montserrat', sans-serif;
+            .row{
+                height: auto;
+                margin: 2.5vh 5vw;
+                width: 90vw;
+                text-align: left;
+            }
+            
+            .mibandmaps .card-title{
+                color: #ff8a00;
+            }
+            
+            .mibandmaps:hover, .amazfitmaps:hover, .huaweibandmaps:hover{
+                box-shadow: 0 10px 35px 0px rgba(0,0,0,0.25);
+                background: #efefef;
+            }
+
+            .beachalarm:hover{
+                box-shadow: 0 10px 35px 0px rgba(0,0,0,0.25);
+            }
+
+            .mibandmaps, .amazfitmaps, .huaweibandmaps, .beachalarm{
+                cursor: pointer;
+                background: white;
+                box-shadow: 0 10px 30px 0px rgba(0,0,0,0.15);
+                border-radius: 20px;
+                padding: 40px;
+                transition: all .15s ease-in;
+            }
+
+            .beachalarm{
+                background: url('background.png');
+                background-position: center;
+                background-size: cover;
+            }
+
+            .amazfitmaps{
+                width: 40vw;
+                margin-right: 0vw;
+            }
+
+            .amazfitmaps .card-title{
+                color: #E9C300;
+            }
+
+            .huaweibandmaps{
+                width: 40vw;
+                margin-left: 0vw;
+            }
+
+            .huaweibandmaps .card-title{
+                color: #005DE9;
+            }
+
+            .amazfitmaps, .huaweibandmaps {
+                display: inline-block;
+            }
+
+            .card-title{
+                font-size: 45px;
+                padding: 0;
+                margin: 0;
+                font-weight: bold;
+                font-family: 'Nunito', sans-serif;
+            }
+
+            .card-text{
+                font-size: 25px;
+                color: black;
+                margin: 0;
+                margin-top: 20px;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-weight: 400;
+            }
+
+            h1{
+                margin: 35px;
+                font-family: 'Varela Round', sans-serif;
+            }
+
+            @media (prefers-color-scheme: dark) {
+                body{
+                    background-color: #242424;
+                }
+                .mibandmaps, .amazfitmaps, .huaweibandmaps{
+                    background: #3C3C3C;
+                    box-shadow: 0 10px 30px 0px rgba(0,0,0,0.45);
+                }
+                .mibandmaps:hover, .amazfitmaps:hover, .huaweibandmaps:hover{
+                    box-shadow: 0 10px 35px 0px rgba(0,0,0,0.65);
+                    background: #4c4c4c;
+                }
+
+                .card-text{
+                    color: white;
+                }
+
+                h1{
+                    color: white;
+                }
             }
         </style>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- Google Analytics -->
+        <!-- Google Analytics 
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-GYM02RBLL1"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
@@ -46,10 +130,31 @@
             gtag('js', new Date());
 
             gtag('config', 'G-GYM02RBLL1');
-        </script>
+        </script>-->
     </head>
     <body>
-        <img src="/images/under_construction.svg" alt="Site under construction" /><br>
-        <a href="https://storyset.com/people">Illustration by Freepik Storyset</a>
+        <h1>My apps</h1>
+        <div class="row">
+            <div class="mibandmaps">
+                <h2 class="card-title">Mi Band Maps</h2>
+                <h4 class="card-text">Receive Google Maps directions to your Mi&nbsp;Band&nbsp;5/4/3, Amazfit&nbsp;Bip or Amazfit&nbsp;Cor</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="amazfitmaps">
+                <h2 class="card-title">Amazfit Maps</h2>
+                <h4 class="card-text">Receive Google Maps directions to your Mi&nbsp;Band&nbsp;5/4/3, Amazfit&nbsp;Bip or Amazfit&nbsp;Cor</h4>
+            </div>
+            <div class="huaweibandmaps">
+                <h2 class="card-title">Huawei Band Maps</h2>
+                <h4 class="card-text">Receive Google Maps directions to your Mi&nbsp;Band&nbsp;5/4/3, Amazfit&nbsp;Bip or Amazfit&nbsp;Cor</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="beachalarm">
+                <h2 class="card-title">Beach Alarm</h2>
+                <h4 class="card-text">Receive Google Maps directions to your Mi&nbsp;Band&nbsp;5/4/3, Amazfit&nbsp;Bip or Amazfit&nbsp;Cor</h4>
+            </div>
+        </div>
     </body>
 </html>
