@@ -21,25 +21,21 @@
             }
             .row{
                 height: auto;
-                margin: 2.5vh 5vw;
-                width: 90vw;
+                margin: 4vh auto;
+                width: 60vw;
                 text-align: left;
-            }
-            
-            .mibandmaps .card-title{
-                color: #ff8a00;
             }
             
             .mibandmaps:hover, .amazfitmaps:hover, .huaweibandmaps:hover{
                 box-shadow: 0 10px 35px 0px rgba(0,0,0,0.25);
-                background: #efefef;
+                background: #f4f4f4;
             }
 
             .beachalarm:hover{
                 box-shadow: 0 10px 35px 0px rgba(0,0,0,0.25);
             }
 
-            .mibandmaps, .amazfitmaps, .huaweibandmaps, .beachalarm{
+            .mibandmaps, .amazfitmaps, .huaweibandmaps, .beachalarm-wrapper{
                 cursor: pointer;
                 background: white;
                 box-shadow: 0 10px 30px 0px rgba(0,0,0,0.15);
@@ -49,31 +45,39 @@
             }
 
             .beachalarm{
-                background: url('background.png');
-                background-position: center;
-                background-size: cover;
+                position: relative;
+                cursor: pointer;
+                background: transparent;
+                box-shadow: 0 10px 30px 0px rgba(0,0,0,0.15);
+                border-radius: 20px;
+                padding: 40px;
+                transition: all .15s ease-in;
             }
 
-            .amazfitmaps{
-                width: 40vw;
-                margin-right: 0vw;
+            .beachalarm-background{
+                background: url('images/background.png');
+                background-position: center;
+                background-size: cover;
+                box-sizing: border-box;
+                position: absolute;
+                border-radius: 20px;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+
+            }
+
+            .mibandmaps .card-title{
+                color: #ff8a00;
             }
 
             .amazfitmaps .card-title{
                 color: #E9C300;
             }
 
-            .huaweibandmaps{
-                width: 40vw;
-                margin-left: 0vw;
-            }
-
             .huaweibandmaps .card-title{
                 color: #005DE9;
-            }
-
-            .amazfitmaps, .huaweibandmaps {
-                display: inline-block;
             }
 
             .card-title{
@@ -96,6 +100,28 @@
             h1{
                 margin: 35px;
                 font-family: 'Varela Round', sans-serif;
+            }
+            
+            a{
+                text-decoration: none;
+            }
+
+            .google-play-button{
+                max-width: 240px;
+                margin-top: 30px;
+            }
+
+            @media (max-width: 1100px) {
+                .row{
+                    width: 80vw;
+                }
+            }
+
+            @media (max-width: 600px) {
+                .row{
+                    width: 90vw;
+                    text-align: center;
+                }
             }
 
             @media (prefers-color-scheme: dark) {
@@ -135,26 +161,40 @@
     <body>
         <h1>My apps</h1>
         <div class="row">
-            <div class="mibandmaps">
-                <h2 class="card-title">Mi Band Maps</h2>
-                <h4 class="card-text">Receive Google Maps directions to your Mi&nbsp;Band&nbsp;5/4/3, Amazfit&nbsp;Bip or Amazfit&nbsp;Cor</h4>
-            </div>
+            <a href="mibandmaps">
+                <div class="mibandmaps">
+                    <h2 class="card-title">Mi Band Maps</h2>
+                    <h4 class="card-text">Receive Google Maps directions to your Mi&nbsp;Band&nbsp;5/4/3, Amazfit&nbsp;Bip or Amazfit&nbsp;Cor</h4>
+                    <a href='https://play.google.com/store/apps/details?id=com.re.mibandmaps'><img class="google-play-button" alt='Get it on Google Play' src='images/google-play-badge.png'/></a>
+                </div>
+            </a>
         </div>
         <div class="row">
-            <div class="amazfitmaps">
-                <h2 class="card-title">Amazfit Maps</h2>
-                <h4 class="card-text">Receive Google Maps directions to your Mi&nbsp;Band&nbsp;5/4/3, Amazfit&nbsp;Bip or Amazfit&nbsp;Cor</h4>
-            </div>
-            <div class="huaweibandmaps">
-                <h2 class="card-title">Huawei Band Maps</h2>
-                <h4 class="card-text">Receive Google Maps directions to your Mi&nbsp;Band&nbsp;5/4/3, Amazfit&nbsp;Bip or Amazfit&nbsp;Cor</h4>
-            </div>
+            <a href="amazfitmaps">
+                <div class="amazfitmaps">
+                    <h2 class="card-title">Amazfit Maps</h2>
+                    <h4 class="card-text">Receive Google Maps directions to your Mi&nbsp;Band&nbsp;5/4/3, Amazfit&nbsp;Bip or Amazfit&nbsp;Cor</h4>
+                    <a href='https://play.google.com/store/apps/details?id=com.re.mibandmaps'><img class="google-play-button" alt='Get it on Google Play' src='images/google-play-badge.png'/></a>
+                </div>
+            </a>
         </div>
         <div class="row">
-            <div class="beachalarm">
-                <h2 class="card-title">Beach Alarm</h2>
-                <h4 class="card-text">Receive Google Maps directions to your Mi&nbsp;Band&nbsp;5/4/3, Amazfit&nbsp;Bip or Amazfit&nbsp;Cor</h4>
-            </div>
+            <a href="huaweibandmaps">
+                <div class="huaweibandmaps">
+                    <h2 class="card-title">Huawei Band Maps</h2>
+                    <h4 class="card-text">Receive Google Maps directions to your Mi&nbsp;Band&nbsp;5/4/3, Amazfit&nbsp;Bip or Amazfit&nbsp;Cor</h4>
+                    <a href='https://play.google.com/store/apps/details?id=com.re.mibandmaps'><img class="google-play-button" alt='Get it on Google Play' src='images/google-play-badge.png'/></a>
+                </div>
+            </a>
         </div>
+        <!--<div class="row">
+            <div class="beachalarm-wrapper">
+                <div class="beachalarm-background"></div>
+                <div class="beachalarm">
+                    <h4 class="card-text">Receive Google Maps directions to your Mi&nbsp;Band&nbsp;5/4/3, Amazfit&nbsp;Bip or Amazfit&nbsp;Cor</h4>
+                    <h2 class="card-title">Beach Alarm</h2>
+                </div>
+            </div>
+        </div>-->
     </body>
 </html>
