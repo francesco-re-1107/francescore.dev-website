@@ -1,6 +1,24 @@
 <html>
     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <!-- SEO Meta Tags -->
+        <meta name="description" content="Hi! My name is Francesco Re. I’m a developer and a student at PoliMi.">
+        <meta name="author" content="Francesco Re">
+
+        <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
+        <meta property="og:site_name" content="Francesco Re" /> <!-- website name -->
+        <meta property="og:site" content="https://francescore.dev" /> <!-- website link -->
+        <meta property="og:title" content="Apps - Francesco Re"/> <!-- title shown in the actual shared post -->
+        <meta property="og:description" content="Hi! My name is Francesco Re. I’m a developer and a student at PoliMi." /> <!-- description shown in the actual shared post -->
+        <meta property="og:url" content="https://francescore.dev/apps" /> <!-- where do you want your post to link to -->
+        <meta property="og:type" content="article" />
+
+        <!-- Website Title -->
         <title>Apps - Francesco Re</title>
+
+        <!-- Favicons -->
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <link rel="apple-touch-icon" href="/apple/apple-touch-icon.png" />
         <link rel="apple-touch-icon" sizes="57x57" href="/apple/apple-touch-icon-57x57.png" />
@@ -11,144 +29,16 @@
         <link rel="apple-touch-icon" sizes="144x144" href="/apple/apple-touch-icon-144x144.png" />
         <link rel="apple-touch-icon" sizes="152x152" href="/apple/apple-touch-icon-152x152.png" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple/apple-touch-icon-180x180.png" />
+
+        <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.gstatic.com"> 
         <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
-        <style>
-            body{
-                text-align: center;
-                margin: 0;
-            }
-            .row{
-                height: auto;
-                margin: 4vh auto;
-                width: 60vw;
-                text-align: left;
-            }
-            
-            .mibandmaps:hover, .amazfitmaps:hover, .huaweibandmaps:hover{
-                box-shadow: 0 10px 35px 0px rgba(0,0,0,0.25);
-                background: #f4f4f4;
-            }
 
-            .beachalarm:hover{
-                box-shadow: 0 10px 35px 0px rgba(0,0,0,0.25);
-            }
+        <!-- Styles -->
+        <link href="css/styles.css" rel="stylesheet">
 
-            .mibandmaps, .amazfitmaps, .huaweibandmaps, .beachalarm-wrapper{
-                cursor: pointer;
-                background: white;
-                box-shadow: 0 10px 30px 0px rgba(0,0,0,0.15);
-                border-radius: 20px;
-                padding: 40px;
-                transition: all .15s ease-in;
-            }
-
-            .beachalarm{
-                position: relative;
-                cursor: pointer;
-                background: transparent;
-                box-shadow: 0 10px 30px 0px rgba(0,0,0,0.15);
-                border-radius: 20px;
-                padding: 40px;
-                transition: all .15s ease-in;
-            }
-
-            .beachalarm-background{
-                background: url('images/background.png');
-                background-position: center;
-                background-size: cover;
-                box-sizing: border-box;
-                position: absolute;
-                border-radius: 20px;
-                top: 0;
-                left: 0;
-                bottom: 0;
-                right: 0;
-
-            }
-
-            .mibandmaps .card-title{
-                color: #ff8a00;
-            }
-
-            .amazfitmaps .card-title{
-                color: #E9C300;
-            }
-
-            .huaweibandmaps .card-title{
-                color: #005DE9;
-            }
-
-            .card-title{
-                font-size: 45px;
-                padding: 0;
-                margin: 0;
-                font-weight: bold;
-                font-family: 'Nunito', sans-serif;
-            }
-
-            .card-text{
-                font-size: 25px;
-                color: black;
-                margin: 0;
-                margin-top: 20px;
-                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                font-weight: 400;
-            }
-
-            h1{
-                margin: 35px;
-                font-family: 'Varela Round', sans-serif;
-            }
-            
-            a{
-                text-decoration: none;
-            }
-
-            .google-play-button{
-                max-width: 240px;
-                margin-top: 30px;
-            }
-
-            @media (max-width: 1100px) {
-                .row{
-                    width: 80vw;
-                }
-            }
-
-            @media (max-width: 600px) {
-                .row{
-                    width: 90vw;
-                    text-align: center;
-                }
-            }
-
-            @media (prefers-color-scheme: dark) {
-                body{
-                    background-color: #242424;
-                }
-                .mibandmaps, .amazfitmaps, .huaweibandmaps{
-                    background: #3C3C3C;
-                    box-shadow: 0 10px 30px 0px rgba(0,0,0,0.45);
-                }
-                .mibandmaps:hover, .amazfitmaps:hover, .huaweibandmaps:hover{
-                    box-shadow: 0 10px 35px 0px rgba(0,0,0,0.65);
-                    background: #4c4c4c;
-                }
-
-                .card-text{
-                    color: white;
-                }
-
-                h1{
-                    color: white;
-                }
-            }
-        </style>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <!-- Google Analytics 
+        <!-- Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-GYM02RBLL1"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
@@ -156,10 +46,16 @@
             gtag('js', new Date());
 
             gtag('config', 'G-GYM02RBLL1');
-        </script>-->
+        </script>
     </head>
     <body>
-        <h1>My apps</h1>
+        <div class="header">
+            <a href="/">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"	 viewBox="0 0 492 492" style="enable-background:new 0 0 492 492;" xml:space="preserve"><g>	<g>		<path d="M464.344,207.418l0.768,0.168H135.888l103.496-103.724c5.068-5.064,7.848-11.924,7.848-19.124			c0-7.2-2.78-14.012-7.848-19.088L223.28,49.538c-5.064-5.064-11.812-7.864-19.008-7.864c-7.2,0-13.952,2.78-19.016,7.844			L7.844,226.914C2.76,231.998-0.02,238.77,0,245.974c-0.02,7.244,2.76,14.02,7.844,19.096l177.412,177.412			c5.064,5.06,11.812,7.844,19.016,7.844c7.196,0,13.944-2.788,19.008-7.844l16.104-16.112c5.068-5.056,7.848-11.808,7.848-19.008			c0-7.196-2.78-13.592-7.848-18.652L134.72,284.406h329.992c14.828,0,27.288-12.78,27.288-27.6v-22.788			C492,219.198,479.172,207.418,464.344,207.418z"/>	</g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+                <span>Francesco Re</span>
+            </a>
+            <h1>My apps</h1>
+        </div>
         <div class="row">
             <a href="mibandmaps">
                 <div class="mibandmaps">
@@ -173,8 +69,8 @@
             <a href="amazfitmaps">
                 <div class="amazfitmaps">
                     <h2 class="card-title">Amazfit Maps</h2>
-                    <h4 class="card-text">Receive Google Maps directions to your Mi&nbsp;Band&nbsp;5/4/3, Amazfit&nbsp;Bip or Amazfit&nbsp;Cor</h4>
-                    <a href='https://play.google.com/store/apps/details?id=com.re.mibandmaps'><img class="google-play-button" alt='Get it on Google Play' src='images/google-play-badge.png'/></a>
+                    <h4 class="card-text">Receive Google Maps directions to your Amazfit smartwatch</h4>
+                    <a href='https://play.google.com/store/apps/details?id=com.re.amazfitmaps'><img class="google-play-button" alt='Get it on Google Play' src='images/google-play-badge.png'/></a>
                 </div>
             </a>
         </div>
@@ -182,8 +78,8 @@
             <a href="huaweibandmaps">
                 <div class="huaweibandmaps">
                     <h2 class="card-title">Huawei Band Maps</h2>
-                    <h4 class="card-text">Receive Google Maps directions to your Mi&nbsp;Band&nbsp;5/4/3, Amazfit&nbsp;Bip or Amazfit&nbsp;Cor</h4>
-                    <a href='https://play.google.com/store/apps/details?id=com.re.mibandmaps'><img class="google-play-button" alt='Get it on Google Play' src='images/google-play-badge.png'/></a>
+                    <h4 class="card-text">Receive Google Maps directions to your Huawei device</h4>
+                    <a href='https://play.google.com/store/apps/details?id=com.re.huaweibandmaps'><img class="google-play-button" alt='Get it on Google Play' src='images/google-play-badge.png'/></a>
                 </div>
             </a>
         </div>

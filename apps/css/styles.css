@@ -1,0 +1,204 @@
+body{
+    text-align: center;
+    margin: 0;
+}
+.row{
+    height: auto;
+    margin: 4vh auto;
+    width: 60vw;
+    text-align: left;
+}
+
+.mibandmaps:hover, .amazfitmaps:hover, .huaweibandmaps:hover{
+    box-shadow: 0 10px 35px 0px rgba(0,0,0,0.25);
+    background: #f4f4f4;
+}
+
+.beachalarm:hover{
+    box-shadow: 0 10px 35px 0px rgba(0,0,0,0.25);
+}
+
+.mibandmaps, .amazfitmaps, .huaweibandmaps, .beachalarm-wrapper{
+    cursor: pointer;
+    background: white;
+    box-shadow: 0 10px 30px 0px rgba(0,0,0,0.15);
+    border-radius: 20px;
+    padding: 40px;
+    transition: all .15s ease-in;
+}
+
+.beachalarm{
+    position: relative;
+    cursor: pointer;
+    background: transparent;
+    box-shadow: 0 10px 30px 0px rgba(0,0,0,0.15);
+    border-radius: 20px;
+    padding: 40px;
+    transition: all .15s ease-in;
+}
+
+.beachalarm-background{
+    background: url('images/background.png');
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+}
+
+.mibandmaps .card-title{
+    color: #ff8a00;
+}
+
+.amazfitmaps .card-title{
+    color: #E9C300;
+}
+
+.huaweibandmaps .card-title{
+    color: #005DE9;
+}
+
+.card-title{
+    font-size: 45px;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+}
+
+.card-text{
+    font-size: 25px;
+    color: black;
+    margin: 0;
+    margin-top: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+}
+
+.google-play-button{
+    max-width: 240px;
+    margin-top: 30px;
+}
+
+.header{
+    width: 60vw;
+    margin: 0 auto;
+}
+
+.header h1{
+    width: 150px;
+    margin: 35px auto;
+    font-family: 'Varela Round', sans-serif;
+    line-height: 35px;
+    vertical-align: middle;
+}
+
+.header svg{
+    fill: #eee;
+    height: 21px;
+    width: auto;
+    line-height: 35px;
+    vertical-align: middle;
+}
+
+.header a{
+    color: #eee;
+    float: left;
+    line-height: 35px;
+    vertical-align: middle;
+    font-size: 20px;
+    padding: 0 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header a:hover{
+    filter: drop-shadow(0 0 0.4rem rgba(0, 0, 0, 0.6));
+}
+
+@media (max-width: 1100px) {
+    .row{
+        width: 80vw;
+    }
+
+    .header{
+        width: 80vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .row{
+        width: 90vw;
+        text-align: center;
+    }
+    .header{
+        width: 90vw;
+    }
+    .header span{
+        display: none;
+    }
+
+    .header svg{
+        height: 29px;
+        padding: 3px;
+    }
+}
+
+@media (max-width: 400px) {
+    .mibandmaps, .amazfitmaps, .huaweibandmaps{
+        padding: 25px;
+    }
+    .card-title{
+        font-size: 30px;
+    }
+
+    .card-text{
+        font-size: 20px;
+    }
+
+    .google-play-button{
+        width: 200px;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body{
+        background-color: #242424;
+    }
+    .mibandmaps, .amazfitmaps, .huaweibandmaps{
+        background: #3C3C3C;
+        box-shadow: 0 10px 30px 0px rgba(0,0,0,0.45);
+    }
+    .mibandmaps:hover, .amazfitmaps:hover, .huaweibandmaps:hover{
+        box-shadow: 0 10px 35px 0px rgba(0,0,0,0.65);
+        background: #4c4c4c;
+    }
+
+    .card-text{
+        color: white;
+    }
+
+    h1{
+        color: white;
+    }
+
+    .header svg{
+        fill: #eee;
+    }
+
+    .header a{
+        color: #eee;
+    }
+
+    .header a:hover{
+        filter: drop-shadow(0 0 0.4rem rgba(255, 255, 255, 0.6));
+    }
+}
