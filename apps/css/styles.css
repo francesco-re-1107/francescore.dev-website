@@ -103,7 +103,7 @@ a{
 }
 
 .header svg{
-    fill: #eee;
+    fill: #222;
     height: 21px;
     width: auto;
     line-height: 35px;
@@ -111,13 +111,14 @@ a{
 }
 
 .header a{
-    color: #eee;
+    color: #222;
     float: left;
     line-height: 35px;
     vertical-align: middle;
     font-size: 20px;
     padding: 0 5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all .15s;
 }
 
 .header a:hover{
