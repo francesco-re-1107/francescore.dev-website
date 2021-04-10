@@ -131,6 +131,18 @@ body{
     margin-top: 40px;
 }
 
+#description{
+    text-align: center;
+    display: none;
+    color: #212121;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+}
+
+#description a{
+    color: #212121;
+}
+
 @media (prefers-color-scheme: dark) {
     body{
         background-color: #242424;
@@ -167,6 +179,14 @@ body{
     }
 
     .list span{
+        color: #E3E3E3;
+    }
+
+    #description{
+        color: #E3E3E3;
+    }
+    
+    #description a{
         color: #E3E3E3;
     }
 }
@@ -265,6 +285,10 @@ body{
         padding-left: 0;
         margin-left: -15px;
     }
+
+    #description{
+        display: block;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -319,6 +343,10 @@ body{
     .list {
         text-align: left;
     }
+
+    #description{
+        display: none;
+    }
 }
 
 @media screen and (max-height: 500px) and (max-width: 730px){
@@ -351,5 +379,9 @@ body{
 
     .list {
         text-align: left;
+    }
+
+    #description{
+        display: none;
     }
 }
