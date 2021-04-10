@@ -1,0 +1,35 @@
+User-agent: *
+Disallow: 
+
+# Root
+User-agent: *
+Disallow: /404.html
+Disallow: /images
+Disallow: /css
+Disallow: /js
+Disallow: /fonts
+
+# Apps
+User-agent: *
+Disallow: /apps/images
+Disallow: /apps/css
+
+# Mi Band Maps
+User-agent: *
+Disallow: /apps/mibandmaps/images
+Disallow: /apps/mibandmaps/js
+Disallow: /apps/mibandmaps/css
+
+# Amazfit Maps
+User-agent: *
+Disallow: /apps/amazfitmaps/images
+Disallow: /apps/amazfitmaps/js
+Disallow: /apps/amazfitmaps/css
+
+# Huawei Band Maps
+User-agent: *
+Disallow: /apps/huaweibandmaps/images
+Disallow: /apps/huaweibandmaps/js
+Disallow: /apps/huaweibandmaps/css
+
+Sitemap: https://francescore.dev/sitemap.xml
