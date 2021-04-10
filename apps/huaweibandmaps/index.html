@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Receive Google Maps directions to your Huawei device">
+    <meta name="author" content="Francesco Re">
+
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
+	<meta property="og:site_name" content="Francesco Re" /> <!-- website name -->
+	<meta property="og:site" content="https://francescore.dev" /> <!-- website link -->
+	<meta property="og:title" content="Huawei Band Maps app"/> <!-- title shown in the actual shared post -->
+	<meta property="og:description" content="Receive Google Maps directions to your Huawei device" /> <!-- description shown in the actual shared post -->
+	<meta property="og:image" content="https://francescore.dev/apps/huaweibandmaps/images/video-frame.jpg" /> <!-- image link, make sure it's jpg -->
+	<meta property="og:url" content="https://francescore.dev/apps/huaweibandmaps" /> <!-- where do you want your post to link to -->
+	<meta property="og:type" content="article" />
+
+    <!-- Website Title -->
+    <title>Huawei Band Maps</title>
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css" integrity="sha512-nSomje7hTV0g6A5X/lEZq8koYb5XZtrWD7GU2+aIJD35CePx89oxSM+S7k3hqNSpHajFbtmrjavZFxSEfl6pQA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw==" crossorigin="anonymous" />
+    <link href="css/styles.css" rel="stylesheet">
+
+	<!-- Favicons  -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="images/apple/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="images/apple/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="images/apple/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="images/apple/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="images/apple/apple-touch-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple/apple-touch-icon-180x180.png" />
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GYM02RBLL1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-GYM02RBLL1');
+    </script>
+</head>
+<body data-spy="scroll" data-target=".fixed-top">
+    
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+        <!-- Image Logo -->
+        <a class="navbar-brand logo-image" href="index.html">
+            <img src="images/logo-with-text.png" alt="logo">
+        </a>
+        
+        <!-- Mobile Menu Toggle Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-awesome menu"><img src="images/menu.svg" /></span>
+            <span class="navbar-toggler-awesome menu-close"><img src="images/close.svg" /></span>
+        </button>
+        <!-- end of mobile menu toggle button -->
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#header">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#features">Features</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#video">Video</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#screenshots">Screenshots</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="privacy.html">Privacy</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav> <!-- end of navbar -->
+    <!-- end of navigation -->
+
+
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="header-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="text-container">
+                            <h1><span class="blue">Huawei&nbsp;Band&nbsp;Maps</span></h1>
+                            <h4>Receive Google Maps directions to your Huawei device</h4><br>
+                            <a href='https://play.google.com/store/apps/details?id=com.re.huaweibandmaps'><img class="google-play-button" alt='Get it on Google Play' src='images/google-play-badge.png'/></a>
+                        </div> <!-- end of text-container -->
+                    </div> <!-- end of col -->
+                    <div class="col-lg-6">
+                        <div class="image-container">
+                            <img class="img-fluid" src="images/header-foreground.png" alt="alternative">
+                        </div> <!-- end of image-container -->
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of header-content -->
+    </header> <!-- end of header -->
+
+    <!-- Features -->
+    <div id="features" class="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <br>
+                    <h2>Features</h2>
+                    <p class="p-heading p-large">This app lets you receive Google Maps directions directly to your wearable device.</p>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <!-- Card -->
+                    <div class="card">
+                        <img class="card-image" src="images/map.svg" alt="alternative">
+                        <div class="card-body">
+                            <h4 class="card-title">Works everywhere</h4>
+                            <p>Huawei Band Maps will work wherever you are, no matter if you're abroad or in your own country.</p>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+
+                    <!-- Card -->
+                    <div class="card">
+                        <img class="card-image" src="images/tool.svg" alt="alternative">
+                        <div class="card-body">
+                            <h4 class="card-title">Advanced customization</h4>
+                            <p>The notifications are highly customizable. For example, you can choose to receive directions only when walking and only at certain distances. The content of the notifications is also customizable, you may want to receive only direction and the arrive time, for example.</p>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+
+                    <!-- Card -->
+                    <div class="card">
+                        <img class="card-image" src="images/sync.svg" alt="alternative">
+                        <div class="card-body">
+                            <h4 class="card-title">Updates</h4>
+                            <p>Huawei Band Maps is constantly updated with new features and improvements.</p>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+                    
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of features -->
+    <!-- end of services -->
+
+
+    <!-- Details 1 -->
+    <div class="details-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <h2>Compatible with</h2>
+                        <ul>
+                            <li>Huawei Band 2/3/4</li>
+                            <li>Huawei Watch GT/GT2/GT2e/Pro/Fit</li>
+                            <li>Honor Band 3/4/5/6</li>
+                            <li>Honor Watch ES / GS</li>
+                            <li>Honor Magic Watch 2</li>
+                        </ul>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-6 details-1-image-col">
+                    <div class="image-container details-image-container">
+                        <img class="img-fluid" src="images/compatibility.svg" alt="alternative">
+                    </div> <!-- end of image-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of details-1 -->
+    <!-- end of details 1 -->
+
+    
+    <!-- Details 2 -->
+    <div class="details-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="image-container details-image-container">
+                        <img class="img-fluid" src="images/world.svg" alt="alternative">
+                    </div> <!-- end of image-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <h2>Translated in several languages</h2>
+                        <ul>
+                            <li>English</li>
+                            <li>Italian</li>
+                            <li>Spanish</li>
+                            <li>Russian</li>
+                            <li>German</li>
+                            <li>French</li>
+                            <li>Portuguese</li>
+                            <li>Portuguese (Brazil)</li>
+                            <li>Polish</li>
+                            (And others are coming)
+                        </ul>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div>
+    <!-- end of details 2 -->
+
+    <!-- Video -->
+    <div id="video" class="video">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Check Out The Video</h2>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    
+                    <!-- Video Preview -->
+                    <div class="image-container">
+                        <div class="video-wrapper">
+                            <a class="popup-youtube" href="https://www.youtube.com/watch?v=bWFRy6r29cQ" data-effect="fadeIn">
+                                <img class="img-fluid" src="images/video-thumbnail.jpg" alt="alternative">
+                                <span class="video-play-button">
+                                    <span></span>
+                                </span>
+                            </a>
+                        </div> <!-- end of video-wrapper -->
+                    </div> <!-- end of image-container -->
+                    <!-- end of video preview -->
+
+                    <!--<p>This video will show you a case study for one of our <strong>Major Customers</strong> and will help you understand why your startup needs Evolo in this highly competitive market</p>-->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of video -->
+    <!-- end of video -->
+
+
+    <!-- Screenshots -->
+    <div id="screenshots" class="screenshots-slider">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Screenshots</h2>
+
+                    <!-- Card Slider -->
+                    <div class="slider-container">
+                        <div class="swiper-container card-slider">
+                            <div class="swiper-wrapper">
+                                
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="screenshot-wrapper">
+                                        <img class="screenshot-image" src="images/screenshots_tiny/main_framed.png" />
+                                    </div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+        
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="screenshot-wrapper">
+                                        <img class="screenshot-image" src="images/screenshots_tiny/configuration_framed.png" />
+                                    </div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="screenshot-wrapper">
+                                        <img class="screenshot-image" src="images/screenshots_tiny/devices_list_framed.png" />
+                                    </div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="screenshot-wrapper">
+                                        <img class="screenshot-image" src="images/screenshots_tiny/notifications_options_framed.png" />
+                                    </div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="screenshot-wrapper">
+                                        <img class="screenshot-image" src="images/screenshots_tiny/distance_options_framed.png" />
+                                    </div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="screenshot-wrapper">
+                                        <img class="screenshot-image" src="images/screenshots_tiny/display_options_framed.png" />
+                                    </div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+                               
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="screenshot-wrapper">
+                                        <img class="screenshot-image" src="images/screenshots_tiny/navigation_type_framed.png" />
+                                    </div>
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+
+                            </div> <!-- end of swiper-wrapper -->
+        
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <!-- end of add arrows -->
+        
+                        </div> <!-- end of swiper-container -->
+                    </div> <!-- end of slider-container -->
+                    <!-- end of card slider -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of screenshots-slider -->
+
+    <!-- Contact -->
+    <div id="contact" class="form">
+        <div class="container">
+            <div class="row form-first-row">
+                <div class="col-lg-12">
+                    <h2>Contact form</h2>
+                    <p>Don't hesitate to contact me by compiling the below form or sending an email to <a class="blue" href="mailto:huaweibandmaps@gmail.com">this address</a></p>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-6 form-image-wrapper">
+                    <img src="images/contact-form.svg" alt="Contact form" />
+                </div> <!-- end of col -->
+                <div class="col-lg-6">
+                    
+                    <!-- Contact Form -->
+                    <form id="contactForm" name="Huawei Band Maps contact form" data-toggle="validator" data-focus="false" netlify>
+                        <input type="hidden" name="subject" value="Huawei Band Maps support" />
+                        <div class="form-group">
+                            <input type="text" class="form-control-input" id="cname" name="name" required>
+                            <label class="label-control" for="cname">Name</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control-input" id="cemail" name="email" required>
+                            <label class="label-control" for="cemail">Email</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control-textarea" id="cmessage" name="message" required></textarea>
+                            <label class="label-control" for="cmessage">Your message</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="form-control-submit-button">SUBMIT MESSAGE</button>
+                        </div>
+                        <div class="form-message">
+                            <div id="cmsgSubmit" class="h3 text-center hidden"></div>
+                        </div>
+                    </form>
+                    <!-- end of contact form -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of form -->
+    <!-- end of contact -->
+
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 footer-google-play-button">
+                    <div class="footer-col">
+                        <a href='https://play.google.com/store/apps/details?id=com.re.huaweibandmaps'><img class="google-play-button" alt='Get it on Google Play' src='images/google-play-badge.png'/></a>
+                    </div>
+                </div> <!-- end of col -->
+                <div class="col-md-9">
+                    <div class="footer-col middle">
+                        <h4><img src="images/propic.png" width="40px" /> <a href="/">Francesco Re</a></h4>
+                        <p>Hi👋<br>my name is Francesco&nbsp;Re and I'm an app developer.<br>I've created Huawei&nbsp;Band&nbsp;Maps and few other apps, go check them out <a href="/apps">here</a>!</p>
+                    </div>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of footer -->  
+    <!-- end of footer -->    
+    	
+    <p class="credits"><a href="https://www.flaticon.com/">Icons by Flaticon</a></p>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.6.0/umd/popper.min.js" integrity="sha512-BmM0/BQlqh02wuK5Gz9yrbe7VyIVwOzD1o40yi1IsTjriX/NGF37NyXHfmFzIlMmoSIBXgqDiG1VNU6kB5dBbA==" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.5.3/swiper-bundle.min.js" integrity="sha512-f5raXjCuok1zLkRjJJm7AMVZ65Kgr8SK85CMOZJ5ytAoHLi/Z+c3T78tm1fYuAVaeo6qLUySmE1rqY8hjSy6mA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" integrity="sha512-0QbL0ph8Tc8g5bLhfVzSqxe9GERORsKhIn1IrpxDAgUsbBGz/V7iSav2zzW325XGd1OMLdL4UiqRJj702IeqnQ==" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script> <!-- Custom scripts -->
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,400i,600,700,700i&amp;subset=latin-ext" rel="stylesheet">
+</body>
+</html>
