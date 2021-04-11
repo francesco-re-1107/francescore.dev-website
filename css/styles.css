@@ -12,6 +12,7 @@ body{
 #propic{
     width: 300px;
     height: 300px;
+    margin: 0 auto;
     background-image: url('../images/propic-light.png');
     background-size: contain;
     background-repeat: no-repeat;
@@ -82,8 +83,10 @@ body{
 
 .list{
     list-style-type: none;
-    padding-left: 10px;
     margin: 0 auto;
+    text-align: center;
+    padding-left: 0;
+    margin-left: -15px;
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
      -khtml-user-select: none; /* Konqueror HTML */
@@ -230,10 +233,6 @@ body{
         width: 250px;
     }
 
-    .list li{
-        margin: 0;
-    }
-
     #propic{
         width: 200px;
         height: 200px;
@@ -278,12 +277,6 @@ body{
 
     .list svg {
         height: 30px;
-    }
-
-    .list {
-        text-align: center;
-        padding-left: 0;
-        margin-left: -15px;
     }
 
     #description{
