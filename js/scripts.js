@@ -12,7 +12,7 @@ if (window.localStorage.lastLogin) {
 
 tw.pasteString("Last login: " + moment(lastLogin).format('ddd MMM Do YYYY H:mm:ss') + "<br><br>$ ")
     .pauseFor(500)
-    .typeString('cat <strong>greetings.txt<strong>')
+    .typeString('whoami')
     .pauseFor(1000)
     .callFunction(
         function(){
