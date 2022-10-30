@@ -6,9 +6,8 @@ var tw = new Typewriter('#console', {
 
 var lastLogin = new Date();
 
-if (window.localStorage.lastLogin) {
+if (window.localStorage.lastLogin)
     lastLogin = window.localStorage.lastLogin;
-}
 
 tw.pasteString("Last login: " + moment(lastLogin).format('ddd MMM Do YYYY H:mm:ss') + "<br><br>$ ")
     .pauseFor(500)
