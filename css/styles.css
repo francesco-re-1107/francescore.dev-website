@@ -140,7 +140,7 @@ body{
     display: none;
     color: #212121;
     font-family: 'Varela Round', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 #description a{
@@ -273,11 +273,11 @@ body{
     
     .list span{
         padding-left: 0;
-        font-size: 25px;
+        font-size: 23px;
     }
 
     .list svg {
-        height: 30px;
+        height: 28px;
     }
 
     #description{
@@ -307,10 +307,10 @@ body{
     }
 }
 
-@media screen and (max-height: 740px) {
+@media screen and (max-height: 800px) {
     #propic{
-        width: 270px;
-        height: 270px;
+        width: 210px;
+        height: 210px;
     }
 
     #socials{
@@ -324,6 +324,11 @@ body{
     .list li {
         margin: 0;
     }
+
+    #description{
+        font-size: 24px;
+        margin: 14px 0;
+    }
 }
 
 @media screen and (max-height: 740px) and (min-width: 1100px){
@@ -334,10 +339,10 @@ body{
     }
 }
 
-@media screen and (max-height: 620px) {
+@media screen and (max-height: 660px) {
     #propic{
-        width: 200px;
-        height: 200px;
+        width: 180px;
+        height: 180px;
     }
 
     #console-wrapper {
@@ -347,6 +352,12 @@ body{
         margin-top: 0;
     }
 
+}
+
+@media screen and (max-height: 620px) {
+    #description{
+        display: none;
+    }
 }
 
 @media screen and (max-height: 500px) {
