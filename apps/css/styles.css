@@ -11,16 +11,16 @@ body{
     text-align: left;
 }
 
-.mibandmaps:hover, .amazfitmaps:hover, .huaweibandmaps:hover{
+.mibandmaps:hover, .amazfitmaps:hover, .huaweibandmaps:hover, .hostpingbot:hover{
     box-shadow: 0 10px 35px 0px rgba(0,0,0,0.25);
     background: #f4f4f4;
 }
 
-.beachalarm:hover{
+.beachalarm:hover, .eriantys:hover{
     box-shadow: 0 10px 35px 0px rgba(0,0,0,0.25);
 }
 
-.mibandmaps, .amazfitmaps, .huaweibandmaps, .beachalarm{
+.mibandmaps, .amazfitmaps, .huaweibandmaps, .beachalarm, .eriantys, .hostpingbot{
     cursor: pointer;
     background: white;
     box-shadow: 0 10px 30px 0px rgba(0,0,0,0.15);
@@ -30,9 +30,15 @@ body{
 }
 
 .beachalarm{
-    background: url('../images/background-light.png');
+    background: url('../images/beachalarm-background-light.png');
     background-position: center center;
-    background-size: cover;
+    background-size: 105%;
+}
+
+.eriantys{
+    background: url('../images/eriantys-background-light.png');
+    background-position: center center;
+    background-size: 105%;
 }
 
 .beachalarm .card-title{
@@ -49,6 +55,14 @@ body{
 
 .huaweibandmaps .card-title{
     color: #005DE9;
+}
+
+.eriantys .card-title{
+    color: #ec088d;
+}
+
+.hostpingbot .card-title{
+    color: #38e741;
 }
 
 .card-title{
@@ -72,7 +86,7 @@ a{
     text-decoration: none;
 }
 
-.google-play-button{
+.google-play-button, .github-button{
     max-width: 240px;
     margin-top: 30px;
 }
@@ -83,7 +97,7 @@ a{
 }
 
 .header h1{
-    width: 150px;
+    width: 180px;
     margin: 35px auto;
     font-family: 'Varela Round', sans-serif;
     line-height: 35px;
@@ -123,7 +137,7 @@ a{
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
     .row{
         width: 90vw;
         text-align: center;
@@ -153,7 +167,7 @@ a{
         font-size: 20px;
     }
 
-    .google-play-button{
+    .google-play-button, .github-button{
         width: 200px;
     }
 }
@@ -162,19 +176,25 @@ a{
     body{
         background-color: #242424;
     }
-    .mibandmaps, .amazfitmaps, .huaweibandmaps{
+    .mibandmaps, .amazfitmaps, .huaweibandmaps, .hostpingbot{
         background: #3C3C3C;
         box-shadow: 0 10px 30px 0px rgba(0,0,0,0.45);
     }
-    .mibandmaps:hover, .amazfitmaps:hover, .huaweibandmaps:hover{
+    .mibandmaps:hover, .amazfitmaps:hover, .huaweibandmaps:hover, .hostpingbot:hover{
         box-shadow: 0 10px 35px 0px rgba(0,0,0,0.65);
         background: #4c4c4c;
     }
 
     .beachalarm{
-        background: url('../images/background-dark.png');
+        background: url('../images/beachalarm-background-dark.png');
         background-position: center center;
-        background-size: cover;
+        background-size: 105%;
+    }
+
+    .eriantys{
+        background: url('../images/eriantys-background-dark.png');
+        background-position: center center;
+        background-size: 105%;
     }
 
     .card-text{
