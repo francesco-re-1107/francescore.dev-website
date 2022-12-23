@@ -32,13 +32,13 @@ body{
 .beachalarm{
     background: url('../images/beachalarm-background-light.png');
     background-position: center center;
-    background-size: 105%;
+    background-size: cover;
 }
 
 .eriantys{
     background: url('../images/eriantys-background-light.png');
     background-position: center center;
-    background-size: 105%;
+    background-size: cover;
 }
 
 .beachalarm .card-title{
@@ -97,7 +97,7 @@ a{
 }
 
 .header h1{
-    width: 180px;
+    width: 200px;
     margin: 35px auto;
     font-family: 'Varela Round', sans-serif;
     line-height: 35px;
@@ -188,13 +188,13 @@ a{
     .beachalarm{
         background: url('../images/beachalarm-background-dark.png');
         background-position: center center;
-        background-size: 105%;
+        background-size: cover;
     }
 
     .eriantys{
         background: url('../images/eriantys-background-dark.png');
         background-position: center center;
-        background-size: 105%;
+        background-size: cover;
     }
 
     .card-text{
