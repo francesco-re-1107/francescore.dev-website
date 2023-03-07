@@ -140,7 +140,7 @@ body{
     display: none;
     color: #212121;
     font-family: 'Varela Round', sans-serif;
-    font-size: 25px;
+    font-size: 24px;
 }
 
 #description a{
@@ -326,7 +326,7 @@ body{
     }
 
     #description{
-        font-size: 24px;
+        font-size: 22px;
         margin: 14px 0;
     }
 }
