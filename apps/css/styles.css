@@ -11,16 +11,16 @@ body{
     text-align: left;
 }
 
-.mibandmaps:hover, .amazfitmaps:hover, .huaweibandmaps:hover, .hostpingbot:hover{
+.basic-card:hover {
     box-shadow: 0 10px 35px 0px rgba(0,0,0,0.25);
     background: #f4f4f4;
 }
 
-.beachalarm:hover, .eriantys:hover{
+.imaged-card:hover{
     box-shadow: 0 10px 35px 0px rgba(0,0,0,0.25);
 }
 
-.mibandmaps, .amazfitmaps, .huaweibandmaps, .beachalarm, .eriantys, .hostpingbot{
+.basic-card, .imaged-card {
     cursor: pointer;
     background: white;
     box-shadow: 0 10px 30px 0px rgba(0,0,0,0.15);
@@ -63,6 +63,14 @@ body{
 
 .hostpingbot .card-title{
     color: #38e741;
+}
+
+.smarttennisracket .card-title{
+    color: #E2FF0D;
+}
+
+.nightowl .card-title{
+    color: #c800ff;
 }
 
 .card-title{
@@ -156,7 +164,7 @@ a{
 }
 
 @media (max-width: 400px) {
-    .mibandmaps, .amazfitmaps, .huaweibandmaps{
+    .basic-card, .imaged-card{
         padding: 25px;
     }
     .card-title{
@@ -176,11 +184,11 @@ a{
     body{
         background-color: #242424;
     }
-    .mibandmaps, .amazfitmaps, .huaweibandmaps, .hostpingbot{
+    .basic-card{
         background: #3C3C3C;
         box-shadow: 0 10px 30px 0px rgba(0,0,0,0.45);
     }
-    .mibandmaps:hover, .amazfitmaps:hover, .huaweibandmaps:hover, .hostpingbot:hover{
+    .basic-card:hover {
         box-shadow: 0 10px 35px 0px rgba(0,0,0,0.65);
         background: #4c4c4c;
     }
