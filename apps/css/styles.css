@@ -94,6 +94,19 @@ a{
     text-decoration: none;
 }
 
+.other-projects {
+    color: #222;
+    font-size: 20px;
+    text-align: center;
+    margin: 40px 10px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.other-projects a{
+    color: #222;
+    text-decoration: underline;
+}
+
 .google-play-button, .github-button{
     max-width: 240px;
     margin-top: 30px;
@@ -223,5 +236,9 @@ a{
 
     .header a:hover{
         filter: drop-shadow(0 0 0.4rem rgba(255, 255, 255, 0.6));
+    }
+
+    .other-projects, .other-projects a{
+        color: white;
     }
 }
