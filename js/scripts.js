@@ -17,7 +17,7 @@ tw.pasteString("Last login: " + moment(lastLogin).format('ddd MMM Do YYYY H:mm:s
         function(){
             document.getElementById("console")
                     .getElementsByTagName("span")[0]
-                    .innerHTML += "<br><br>Hi👋<br>My name is <strong>Francesco&nbsp;Re</strong>.<br>I work as a <strong>Backend Software Engineer</strong> at MF Group.<br>I build reliable, scalable software and AI-powered products.<br><br>$ ";
+                    .innerHTML += "<br><br>Hi👋<br>My name is <strong>Francesco&nbsp;Re</strong>.<br>I work as a <strong>Backend Software Engineer</strong> at <a href='https://www.mfgroup.ch/en/home' target='_blank'>MF Group</a>.<br>I build reliable, scalable software and AI-powered products.<br><br>$ ";
 
             window.localStorage.lastLogin = new Date();
         })
